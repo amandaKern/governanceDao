@@ -6,8 +6,6 @@ describe("DAO", function () {
   const proposalTitle = "New Proposal";
   const proposalDescription = "This is a new proposal";
   const accept = 0;
-  const reject = 1;
-  const abstain = 2;
 
   beforeEach(async function () {
     [owner, member1, member2] = await ethers.getSigners();
